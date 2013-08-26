@@ -1,0 +1,45 @@
+body { 
+    padding-top: 65px; 
+}
+
+.selectable-wrapper{border:1px solid;border-radius:0px;height:250px;width:175px;overflow:auto;float: left; padding: 0; margin-right: 10px; }
+
+.selectable-single .ui-selecting { background: #FECA40;padding: 0 }
+.selectable-single  .ui-selected { background: #F39814; color: white; }
+.selectable-single { list-style-type: none; overflow:auto;margin: 0; padding: 5px;}
+.selectable-single  li { margin: 0 0 5px 0; padding: 0; font-size: 12px; width: 145px; }
+
+#overlay,#overlay-drop { list-style-type: none; margin: 0; padding: 5px; float: left; margin-right: 5px; border:1px solid;
+border-radius:0px;height:250px;width:250px;overflow:auto}
+#overlay li, #overlay-drop li { margin: 0 0 5px 0; padding: 0; font-size: 12px; width: 145px; }
+#overlay-control {width:500px;border: 1px solid;padding:5px}
+
+
+#tabs-min { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs-min .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 1px solid #c0c0c0; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-active { 
+    background: transparent url(../img/uiTabsArrow.png) no-repeat bottom center; 
+    border: none; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-default a { 
+    color: #c0c0c0; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-active a { 
+    color: #00f; 
+}
+
+.clear {clear:both}
